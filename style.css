@@ -569,7 +569,7 @@ nav .brand-logo img {
   position: absolute;
   top: 0;
   transition: border-width 0.2s ease 0s, border-color 0.2s ease 0s;
-  width: 100.5%;
+  width: auto;
 }
 
 
@@ -583,10 +583,13 @@ transition: background-color 0.5s ease-in-out;
  
 }
 
-
 #portfolio-list .mix a img{
-  width: 100%;
+  width: auto;
   height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 
@@ -1873,7 +1876,7 @@ textarea.materialize-textarea {
   .next {margin-top: 28%;}
   .prev1 {margin-top: 28%;}
   .next1 {margin-top: 28%;}
-  #portfolio-list .mix {height: 240px;}
+  #portfolio-list .mix {height: 240px; width: auto;}
   .prev2 {margin-top: 24.5%;left: -12%;}
   .next2 {margin-top: 24.5%;right: -8.5%;}
   .blog-post-content h2, .blog-post-content h2 a {font-size: 16px;}
@@ -1950,7 +1953,7 @@ textarea.materialize-textarea {
   .prev1 { margin-top: 49%;}
   .next1{margin-top: 49%;}
   .filter {margin-bottom: 5px;margin-right: 5px;}
-  #portfolio-list .mix {height: 250px; margin-bottom: 15px; width: 100%;}
+  #portfolio-list .mix {height: 250px; margin-bottom: 15px; width: auto;}
   .single-facts {margin-bottom: 25px;}
   .contact-map {height: 350px;margin-top: 30px;}
   .prev2 { margin-top: 30.5%;}
